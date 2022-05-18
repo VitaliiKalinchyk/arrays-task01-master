@@ -1,4 +1,4 @@
-# Task01
+# Swap even elements
 
 The purpose of this exercise is to train you to work with arrays.
 
