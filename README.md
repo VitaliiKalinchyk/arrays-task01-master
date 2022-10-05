@@ -6,7 +6,7 @@ Estimated workload of this exercise is *20 min*.
 
 ### Description
 
-Please, proceed to [Task01](src/main/java/com/epam/rd/autotasks/task01/Task01.java) class
+Please, proceed to [IntArrayUtil](src/main/java/com/epam/rd/autotasks/array/IntArrayUtil.java) class
 and implement its static method:
 
 `void swapEven(int[] array)`

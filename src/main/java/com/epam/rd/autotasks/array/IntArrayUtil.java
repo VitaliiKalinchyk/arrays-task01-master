@@ -1,8 +1,8 @@
-package com.epam.rd.autotasks.task01;
+package com.epam.rd.autotasks.array;
 
 import java.util.Arrays;
 
-public class Task01 {
+public class IntArrayUtil {
 
 	public static void swapEven(int[] array) {
 		// TODO: Implement this method.
