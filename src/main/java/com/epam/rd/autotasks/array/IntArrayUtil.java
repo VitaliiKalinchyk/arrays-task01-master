@@ -5,7 +5,15 @@ import java.util.Arrays;
 public class IntArrayUtil {
 
 	public static void swapEven(int[] array) {
-		// TODO: Implement this method.
+		if (array != null && array.length > 0) {
+			for (int i = 0; i < array.length / 2; i++) {
+				if (array[i] % 2 == 0 && array[array.length - 1 - i] % 2 == 0) {
+					int temp = array[i];
+					array[i] = array[array.length - 1 - i];
+					array[array.length - 1 - i] = temp;
+				}
+			}
+		}
 	}
 
 	public static void main(String[] args) {
